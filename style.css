@@ -1,0 +1,137 @@
+body {
+  background-color: #e4e1ff;
+}
+
+.navbar-breand{
+  font-size: 28px;
+  color: #e52f2f; }
+/*===============CAROUSEL===========*/
+.item img{
+    margin-left: auto;
+    margin-right: auto; }
+
+.carousel-control {
+          opacity: 0.1; }
+
+
+@media (max-width:758px){
+    
+/*===========carousel=============*/
+    .item img {margin-top: 3em;} 
+    .item h1 { font-size: 1.2em;}
+    .item h3 {font-size: 1em;}
+    .carousel-control {font-size: 0.2em;
+                       opacity: 0.5;}
+
+/*=============skills============*/                    
+  #skills { margin-top: 1em;}
+  #skills #skills1, #skills2 {padding-top: 0;
+                              padding-bottom: 0;
+                              margin: 0 0 0 0 ;}
+  #skills .glyphicon { font-size: 2.5em; }
+
+/*===========portfolio============*/                     
+  .container #portfolio {padding-top: 1em;}                      
+   #portfolio h3 { padding-top: 1em;
+                   margin-top: 1em; }  
+
+/*=============== Contact==================== */ 
+    #contact {
+           margin-top: 2em;
+           padding-top: 2em; }
+}
+
+ /*=================================================  */
+/*======================#SCILLS======================*/
+
+#skills { padding-top: 3em;   
+          background-color: #e4e1ff; }
+
+#skills1, #skills2 { 
+             margin: 3em 0  1em 0;
+             padding: 2em;}
+
+ #skills .glyphicon {
+                   font-size: 3em;}
+ 
+/*===============PORTFOLIO==============*/
+
+#portfolio {
+           padding-top: 2em;
+           margin-top: 3em; }
+
+#portfolio h3 {
+    background-image: url(images/back.jpg);
+    border: 0.1em solid black;
+    margin-top: 1em ;
+    padding: 2em; }
+
+#portfolio h3 a {
+   color: #e52f2f; }
+
+/*=================About==================*/
+#about {
+         margin: 3em 2em 3em 2em;
+         padding-top: 3em; }
+
+#about img {
+  height: 100%;
+  width: 100%; }
+ /*=============Contact============ */
+ 
+#contact {
+  margin: 2em 0 1em ;
+  padding: 5em 0 1em 0; }
+
+#contact .glyphicon, h2 {
+     font-size: 3em; }
+
+/* ============Resume===========  */ 
+
+.icons {
+     
+     }
+ #email h2{
+   margin: 1em 0 1em 0;
+   padding: 1em 0 1em 0;
+}
+
+.icons .twicon{
+  transition: transform 2s;
+}
+
+.icons .twicon:hover{
+  transform: rotateX(360deg);
+}
+.icons .inicon{
+  transition: transform 2s;
+}
+
+.icons .inicon:hover{
+  transform: rotateX(360deg);
+}
+.icons .ghicon{
+  transition: transform 2s;
+}
+
+.icons .ghicon:hover{
+  transform: rotateX(360deg);
+}
+
+#resume .btn{
+  
+  margin-bottom: -4.8em;
+  font-size: 2.5em;
+
+}
+
+/* ============footer============= */
+.footer{
+  background-color: #2f2f2f;
+  color:white;
+  padding-top: 3em;
+}
+
+
+
+
