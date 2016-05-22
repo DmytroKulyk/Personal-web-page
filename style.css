@@ -1,4 +1,6 @@
-body {
+html, body {
+  margin: 0;
+  padding: 0;
   background-color: #e4e1ff;
 }
 
@@ -6,22 +8,33 @@ body {
   font-size: 28px;
   color: #e52f2f; }
 /*===============CAROUSEL===========*/
-.item img{
-    margin-left: auto;
-    margin-right: auto; }
+/*.item img{
+    margin: auto;
+     }*/
 
-.carousel-control {
-          opacity: 0.1; }
+.jumbotron {
+  background-image: url(Images/city.jpg); 
+  height: 800px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+.main {
+  position: relative;
+  top: 280px;
+  text-align: center;
+  color: white;
+}
 
 
 @media (max-width:758px){
     
-/*===========carousel=============*/
-    .item img {margin-top: 3em;} 
-    .item h1 { font-size: 1.2em;}
-    .item h3 {font-size: 1em;}
-    .carousel-control {font-size: 0.2em;
-                       opacity: 0.5;}
+/*===========Jumbotron=============*/
+   .jumbotron{
+    height: 500px;
+   }
+   .main{
+    top: 180px;
+   }
 
 /*=============skills============*/                    
   #skills { margin-top: 1em;}
