@@ -1,8 +1,7 @@
-html, body {
+/*html, body {
   margin: 0;
   padding: 0;
-  background-color: #e4e1ff;
-}
+}*/
 
 .navbar-breand{
   font-size: 28px;
@@ -17,6 +16,7 @@ html, body {
   height: 800px;
   background-size: 100% 100%;
   background-repeat: no-repeat; 
+  margin-bottom: 0px;
 }
 .main {
   position: relative;
@@ -26,43 +26,46 @@ html, body {
 }
 
 
-@media (max-width:758px){
+/*@media (max-width:758px){*/
     
 /*===========Jumbotron=============*/
-   .jumbotron{
+   /*.jumbotron{
     height: 500px;
    }
    .main{
     top: 180px;
-   }
+   }*/
 
 /*=============skills============*/                    
-  #skills { margin-top: 1em;}
-  #skills #skills1, #skills2 {padding-top: 0;
-                              padding-bottom: 0;
-                              margin: 0 0 0 0 ;}
-  #skills .glyphicon { font-size: 2.5em; }
+ /*.container #skills {
+     height: 900px;
+  }*/
+
 
 /*===========portfolio============*/                     
-  .container #portfolio {padding-top: 1em;}                      
+  /*.container #portfolio {padding-top: 1em;}                      
    #portfolio h3 { padding-top: 1em;
                    margin-top: 1em; }  
-
+*/
 /*=============== Contact==================== */ 
-    #contact {
+   /* #contact {
            margin-top: 2em;
            padding-top: 2em; }
 }
-
+*/
  /*=================================================  */
 /*======================#SCILLS======================*/
 
-#skills { padding-top: 3em;   
-          background-color: #e4e1ff; }
-
-#skills1, #skills2 { 
-             margin: 3em 0  1em 0;
-             padding: 2em;}
+#skills { 
+          height: 550px;
+          background-color: #908c8c;
+           }
+ .skillsContainer{
+    padding-top: 90px;
+ } 
+.skillsContainer h2{
+  padding-bottom: 40px;
+}         
 
  #skills .glyphicon {
                    font-size: 3em;}
