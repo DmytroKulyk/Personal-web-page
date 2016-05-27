@@ -3,6 +3,7 @@
   padding: 0;
 }*/
 
+
 .navbar-breand{
   font-size: 28px;
   color: #e52f2f; }
@@ -58,7 +59,7 @@
 
 #skills { 
           height: 550px;
-          background-color: #908c8c;
+          background-color: #eaeaea;
            }
  .skillsContainer{
     padding-top: 90px;
@@ -68,27 +69,27 @@
 }         
 
  #skills .glyphicon {
-                   font-size: 3em;}
+                   font-size: 3em;
+}
  
 /*===============PORTFOLIO==============*/
+    #portfolio{
+      height: 650px;
+      background-color: #cccac6;
+    }
+  .portfolioContainer{
+    padding-top: 30px
+  }
+  .portfolioContainer h2{
+    padding-bottom: 40px;
+  }
 
-#portfolio {
-           padding-top: 2em;
-           margin-top: 3em; }
-
-#portfolio h3 {
-    background-image: url(images/back.jpg);
-    border: 0.1em solid black;
-    margin-top: 1em ;
-    padding: 2em; }
-
-#portfolio h3 a {
-   color: #e52f2f; }
 
 /*=================About==================*/
 #about {
-         margin: 3em 2em 3em 2em;
-         padding-top: 3em; }
+        height: 650px;
+         background-color: #b2a28e;
+       }
 
 #about img {
   height: 100%;
