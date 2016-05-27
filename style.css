@@ -86,11 +86,27 @@
 
 
 /*=================About==================*/
+
+
 #about {
         height: 650px;
          background-color: #b2a28e;
        }
-
+.about_container{
+  padding-top: 20px;
+}     
+.about_container h2{
+  padding-top: 40px;
+padding-bottom: 40px
+}  
+ .abount_text_p h1{
+   padding-bottom: 10px;
+padding-top: 0px;
+margin-top: 0px;
+ }
+ .abount_text_p p {
+  font-size: 18px;
+ }
 #about img {
   height: 100%;
   width: 100%; }
