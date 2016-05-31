@@ -1,16 +1,9 @@
-/*html, body {
-  margin: 0;
-  padding: 0;
-}*/
 
-
+ 
 .navbar-breand{
   font-size: 28px;
   color: #e52f2f; }
-/*===============CAROUSEL===========*/
-/*.item img{
-    margin: auto;
-     }*/
+/*===============Jumbotron===========*/
 
 .jumbotron {
   background-image: url(Images/city.jpg); 
@@ -27,39 +20,42 @@
 }
 
 
-/*@media (max-width:758px){*/
+@media (max-width: 758px){
     
 /*===========Jumbotron=============*/
-   /*.jumbotron{
-    height: 500px;
+   .jumbotron{
+    height: 600px;
    }
    .main{
     top: 180px;
-   }*/
+   }
 
 /*=============skills============*/                    
- /*.container #skills {
-     height: 900px;
-  }*/
+ .skillsContainer {
+     height: 800px;
+     background-color: #dddddd;
+  }
 
 
 /*===========portfolio============*/                     
-  /*.container #portfolio {padding-top: 1em;}                      
-   #portfolio h3 { padding-top: 1em;
-                   margin-top: 1em; }  
-*/
-/*=============== Contact==================== */ 
-   /* #contact {
-           margin-top: 2em;
-           padding-top: 2em; }
+  .portfolioContainer{
+      height: 1010px;
+      background-color: #cccccc;
+    }
+/*=============== About==================== */ 
+ .about_container{
+  height: 200px;
+ }
+
+/*=============== Sosial==================== */ 
+  
 }
-*/
  /*=================================================  */
 /*======================#SCILLS======================*/
 
 #skills { 
           height: 550px;
-          background-color: #eaeaea;
+          background-color: #dddddd;
            }
  .skillsContainer{
     padding-top: 90px;
@@ -68,17 +64,15 @@
   padding-bottom: 40px;
 }         
 
- #skills .glyphicon {
-                   font-size: 3em;
-}
+
  
 /*===============PORTFOLIO==============*/
     #portfolio{
       height: 650px;
-      background-color: #cccac6;
+      background-color: #cccccc;
     }
   .portfolioContainer{
-    padding-top: 30px
+    padding-top: 30px;
   }
   .portfolioContainer h2{
     padding-bottom: 40px;
@@ -90,14 +84,14 @@
 
 #about {
         height: 650px;
-         background-color: #b2a28e;
+         background-color: #bbbbbb;
        }
 .about_container{
   padding-top: 20px;
 }     
 .about_container h2{
   padding-top: 40px;
-padding-bottom: 40px
+padding-bottom: 40px;
 }  
  .abount_text_p h1{
    padding-bottom: 10px;
@@ -110,61 +104,49 @@ margin-top: 0px;
 #about img {
   height: 100%;
   width: 100%; }
- /*=============Contact============ */
+ /*=============Social============ */
  
-#contact {
-  margin: 2em 0 1em ;
-  padding: 5em 0 1em 0; }
-
-#contact .glyphicon, h2 {
-     font-size: 3em; }
-
-/* ============Resume===========  */ 
-
-.icons {
-     
-     }
- #email h2{
-   margin: 1em 0 1em 0;
-   padding: 1em 0 1em 0;
+#social{
+  height: 700px;
+  background-color: #aaaaaa;
 }
 
-.icons .twicon{
-  transition: transform 2s;
+#githubIcon{
+  margin: 10px;
+}
+#facebookIcon{
+  margin: 10px;
+}
+#linkedinIcon{
+  margin:10px;
+}
+#letterIcon{
+  margin:10px;
+}  
+
+/*=============Footer============*/
+
+#footer{
+  height: 100px;
+  background-color: #2c2c2c;
 }
 
-.icons .twicon:hover{
-  transform: rotateX(360deg);
-}
-.icons .inicon{
-  transition: transform 2s;
+#footer p{
+  color: white;
+  padding-top: 20px;
 }
 
-.icons .inicon:hover{
-  transform: rotateX(360deg);
+/*rotateImg{
+    
+    width: 50px;
+    height: 50px;
+    animation: spin 4s linear infinite;
 }
-.icons .ghicon{
-  transition: transform 2s;
-}
-
-.icons .ghicon:hover{
-  transform: rotateX(360deg);
-}
-
-#resume .btn{
-  
-  margin-bottom: -4.8em;
-  font-size: 2.5em;
-
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg)
 }
 
-/* ============footer============= */
-.footer{
-  background-color: #2f2f2f;
-  color:white;
-  padding-top: 3em;
-}
-
-
+*/
 
 
