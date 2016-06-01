@@ -1,8 +1,8 @@
+.navbar-inverse .navbar-brand{
+  font-size: 30px;
+  color: #e52f2f; 
+}
 
- 
-.navbar-breand{
-  font-size: 28px;
-  color: #e52f2f; }
 /*===============Jumbotron===========*/
 
 .jumbotron {
@@ -33,7 +33,7 @@
 /*=============skills============*/                    
  .skillsContainer {
      height: 800px;
-     background-color: #dddddd;
+  
   }
 
 

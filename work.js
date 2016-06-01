@@ -27,6 +27,12 @@ $('a[href^="#"]').on('click', function(event) {
     }
 
     });
+
+$(".main h1").textillate({
+    in: {effect: "fadeIn", delay:100},
+});
+
+
 });
 
 

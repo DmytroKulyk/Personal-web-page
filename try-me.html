@@ -1,4 +1,4 @@
-3<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
  <meta charset="utf-8">
@@ -9,10 +9,13 @@
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="js/jquery.lettering.js" type="text/javascript"></script>
+  <script src="js/jquery.textillate.js" type="text/javascript"></script>
   
-  <!-- <script src="js/jquery-1.12.3.js"></script> -->
-   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>--> 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+ 
+  
   <script type="text/javascript" src="work.js"></script>
 
   <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
@@ -22,33 +25,33 @@
 
 
 <!--==================================NAVBAR===============================================-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container">
+       <a class="navbar-brand" href="try-me.html">Dmytro Kulyk</a>
+       
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 
-<header class="navbar navbar-inverse navbar-fixed-top">
-	<nav class="container" rol="navigatio">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-
-       <span class="sr-only">Toggle navigation</span>
+       
        <span class="icon-bar"></span>
        <span class="icon-bar"></span>
        <span class="icon-bar"></span>
       
       </button>
-       <a class="navbar-breand" href="try-me.html">Dmytro Kulyk</a>
-      </div>
-		
-		<div class="collapse navbar-collapse navbar-right" id="responsive-menu">
-          <ul class="nav navbar-nav">
+
+       <div class="collapse navbar-collapse navHeaderCollapse">
+
+         <ul class="nav navbar-nav navbar-right">
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#social">Social</a></li>
             <li><a href="Dmytro_Kulyk.docx" download>Resume</a></li>
           </ul>
-          </div>
-	</nav>
-</header>
 
+       </div>
+      </div>
+     </div>
+    </div>
     <!--============================Jumbotron===============================-->
   
     <div class="jumbotron">
@@ -63,11 +66,11 @@
    <!--================================SKILLS====================================-->
 
   <div class="row">  
-  <div class="container col-md-12 col-sm-12" id="skills">
+  <div class="container col-md-12 col-sm-12 col-xs-12" id="skills">
   <div class="skillsContainer" > 
   <div class="col-md-12 text-center"><h2>Skills</h2></div>
 
-    <div class="col-md-4  col-xs-12 text-center" id="skills1">
+    <div class="col-md-4 col-sm-12 col-xs-12 text-center" id="skills1">
      <button type="button" class="btn btn-default">
         <span><img src="images/html-coding.svg" width="50px" hight="50px"/></span>
      </button>
@@ -75,7 +78,7 @@
       <p>HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages.</p>
     </div>
 
-    <div class="col-md-4  col-xs-12 text-center" id="skills2">
+    <div class="col-md-4 col-sm-12 col-xs-12 text-center" id="skills2">
     <button type="button" class="btn btn-default">
         <span><img src="images/custom-css.svg" width="50px" hight="50px"/></span>
      </button>
@@ -84,7 +87,7 @@
     </div>
   
   
-   <div class="col-md-4 col-xs-12 text-center" id="skills3">
+   <div class="col-md-4 col-sm-12 col-xs-12 text-center" id="skills3">
     <button type="button" class="btn btn-default">
         <span><img src="images/java-script-hand-drawn-file.svg" width="50px" hight="50px"/></span>
         </button>
@@ -98,7 +101,7 @@
      <!--===================================PORTFOLIO===================================-->
      
      <div class="row">
-    <div class="container col-md-12 col-sm-12" id="portfolio">
+    <div class="container col-md-12 col-sm-12 col-xs-12" id="portfolio">
      <div class="portfolioContainer">
      <div class="col-md-12 text-center"><h2>Portfolio</h2></div>
     
@@ -111,7 +114,7 @@
        </div>
       
 
-      <div class="col-md-6 col-xs-12 text-center">
+      <div class="col-md-6 col-sm-12 col-xs-12 text-center">
          <a href="#">
           <img src="Images/youtube_logo.png"/>
          </a> 
@@ -125,15 +128,15 @@
 	
     <!--============================ABOUT=============================-->
       <div class="row">
-   <div class="container col-md-12 col-sm-12" id="about">
+   <div class="container col-md-12 col-sm-12 col-sm-12" id="about">
     <div class="about_container">
-   <div class="col-md-12 text-center"><h2>About</h2></div>
+   <div class="col-md-12 col-sm-12 text-center"><h2>About</h2></div>
       
         <div class="col-md-6 col-xs-12">
          <img src="images/54_0.jpg"/>
         </div>
 
-        <div class="col-md-6 col-xs-12 abount_text_p">
+        <div class="col-md-6 col-sm-12 col-xs-12 abount_text_p">
          <h1 class="text-center">Dmytro Kulyk</h1>
          <p><strong style="color:white">Thank you</strong> for taking the time to visit my portfolio.I am a full stack software engineer from San Francisco, CA,with a strong background in <strong style="color:white">JavaScript, HTML5, CSS3 and Git</strong>. My recent experience includes using front end technologies such as jQuery, as well as back end technologies such as Ajax.</p>
         <p>I am passionate about working with other exceptional software engineers to solve complex problems, and produce modular, well-documented, and highly functional applications.I enjoy coding, reddit and I love cats.</p>
@@ -150,12 +153,12 @@
     
     <div class="container col-md-12 col-sm-12" id="social">
       
-       <div class='col-md-12 text-center'>
+       <div class='col-md-12 col-sm-12 text-center'>
               <h2>Social</h2>
               <h3>Connect with me on Social Media.</h3>
           <img src="Images/SEposter.jpg"/>
-          <p>Dmytro Kulyk</p>
-          <p>Full stack software engineer</p>
+          <h3>Dmytro Kulyk</h3>
+          <p style="font-size:19px">Full stack software engineer</p>
          <div class="icons">
             <img id="githubIcon" width="45px" hight="45px" src="images/icons/svg/Github-black.svg"/>
             <img id="facebookIcon" width="45px" hight="45px" src="images/icons/svg/Facebook-black.svg"/>
@@ -176,7 +179,7 @@
 
 </div> 
 
-
+<script type="text/javascript"  src="js/bootstrap.min.js"></script>
 </body>
 </html>
 
