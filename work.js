@@ -23,10 +23,7 @@ $('a[href^="#"]').on('click', function(event) {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: target.offset().top
-        }, 1000);
-    
-    // $('#example-one a').removeClass('current_page_item');
-    // $(this).addClass('current_page_item');
+        }, 1000);    
 }
 });
 
