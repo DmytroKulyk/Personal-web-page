@@ -40,7 +40,7 @@
 
        <div class="collapse navbar-collapse navHeaderCollapse">
 
-         <ul class="nav navbar-nav navbar-right">
+         <ul class="nav navbar-nav navbar-right group" id="example-one">
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About</a></li>
@@ -57,7 +57,7 @@
     <div class="jumbotron">
       <div class="container">  
         <div class="main">
-          <h1>Hello, my name is Dmytro!</h1>
+          <h1>Hello, my name is "!@^#*"!S</h1>
           <a href="#skills"><img src="images/down-arrow.png" width="90px" hight="90px"/></a>
         </div>
       </div>
@@ -67,10 +67,10 @@
 
   <div class="row">  
   <div class="container col-md-12 col-sm-12 col-xs-12" id="skills">
-  <div class="skillsContainer" > 
+  <div class="skillsContainer"> 
   <div class="col-md-12 text-center"><h2>Skills</h2></div>
 
-    <div class="col-md-4 col-sm-12 col-xs-12 text-center" id="skills1">
+    <div class="col-md-4 col-sm-4 col-xs-12 text-center">
      <button type="button" class="btn btn-default">
         <span><img src="images/html-coding.svg" width="50px" hight="50px"/></span>
      </button>
@@ -78,7 +78,7 @@
       <p>HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages.</p>
     </div>
 
-    <div class="col-md-4 col-sm-12 col-xs-12 text-center" id="skills2">
+    <div class="col-md-4 col-sm-4 col-xs-12 text-center" id="skills2">
     <button type="button" class="btn btn-default">
         <span><img src="images/custom-css.svg" width="50px" hight="50px"/></span>
      </button>
@@ -87,7 +87,7 @@
     </div>
   
   
-   <div class="col-md-4 col-sm-12 col-xs-12 text-center" id="skills3">
+   <div class="col-md-4 col-sm-4 col-xs-12 text-center" id="skills3">
     <button type="button" class="btn btn-default">
         <span><img src="images/java-script-hand-drawn-file.svg" width="50px" hight="50px"/></span>
         </button>
@@ -105,7 +105,7 @@
      <div class="portfolioContainer">
      <div class="col-md-12 text-center"><h2>Portfolio</h2></div>
     
-      <div class="col-md-6 col-xs-12  text-center twitter">
+      <div class="col-md-6 col-sm-6 col-xs-12 text-center">
         <a href="#">
         <img src="Images/twitter1.png"/>
         </a>
@@ -114,7 +114,7 @@
        </div>
       
 
-      <div class="col-md-6 col-sm-12 col-xs-12 text-center">
+      <div class="col-md-6 col-sm-6 col-xs-12 text-center">
          <a href="#">
           <img src="Images/youtube_logo.png"/>
          </a> 
@@ -132,16 +132,16 @@
     <div class="about_container">
    <div class="col-md-12 col-sm-12 text-center"><h2>About</h2></div>
       
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-6 col-sm-6 col-xs-12">
          <img src="images/54_0.jpg"/>
         </div>
 
-        <div class="col-md-6 col-sm-12 col-xs-12 abount_text_p">
+        <div class="col-md-6 col-sm-6 col-xs-12 abount_text_p">
          <h1 class="text-center">Dmytro Kulyk</h1>
          <p><strong style="color:white">Thank you</strong> for taking the time to visit my portfolio.I am a full stack software engineer from San Francisco, CA,with a strong background in <strong style="color:white">JavaScript, HTML5, CSS3 and Git</strong>. My recent experience includes using front end technologies such as jQuery, as well as back end technologies such as Ajax.</p>
         <p>I am passionate about working with other exceptional software engineers to solve complex problems, and produce modular, well-documented, and highly functional applications.I enjoy coding, reddit and I love cats.</p>
 
-          <p>Want to <strong style="color:white">hire</strong> me, 
+          <p>Want to <strong style="color:white">hire me,</strong>  
           have questions about my work or just want to say hello? 
           Please go ahead and <strong style="color:white">contact me</strong> below!</p>
         </div>
@@ -150,10 +150,11 @@
    </div> 
 
  <!--=====================================Social========================================================-->   
-    
-    <div class="container col-md-12 col-sm-12" id="social">
-      
-       <div class='col-md-12 col-sm-12 text-center'>
+    <div class="row">
+    <div class="container col-md-12 col-sm-12 col-xs-12" id="social">
+          
+      <div class="social_container">    
+       <div class='col-md-12 col-sm-12 col-xs-12 text-center'>
               <h2>Social</h2>
               <h3>Connect with me on Social Media.</h3>
           <img src="Images/SEposter.jpg"/>
@@ -164,20 +165,23 @@
             <img id="facebookIcon" width="45px" hight="45px" src="images/icons/svg/Facebook-black.svg"/>
             <img id="linkedinIcon" width="45px" hight="45px" src="images/icons/svg/Linkedin-black.svg"/>
             <img id="letterIcon" width="45px" hight="45px" src="images/icons/svg/letter.svg"/>
-          </div>  
+          </div> 
+          </div> 
         </div>
      </div>
+   </div>
 
 
 <!-- ==================Footer==============-->
+ <div class="row">
+    <div class="container col-md-12 col-sm-12 col-xs-12>" id="footer">
 
-<div class="container col-md-12 col-sm-12>" id="footer">
+    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+     <p>Copyright © 2016, Dmyrto Kulyk</p>
+   </div>
 
- <div class="col-md-12 col-sm-12 text-right">
-    <p>Copyright © 2016, Dmyrto Kulyk</p>
- </div>
-
-</div> 
+  </div> 
+</div>
 
 <script type="text/javascript"  src="js/bootstrap.min.js"></script>
 </body>

@@ -3,6 +3,11 @@
   color: #e52f2f; 
 }
 
+.current_page_item {
+  background-color: #C00;
+  color: green;
+}
+
 /*===============Jumbotron===========*/
 
 .jumbotron {
@@ -20,7 +25,7 @@
 }
 
 
-@media (max-width: 758px){
+@media (max-width: 768px){
     
 /*===========Jumbotron=============*/
    .jumbotron{
@@ -31,22 +36,24 @@
    }
 
 /*=============skills============*/                    
- .skillsContainer {
-     height: 800px;
-  
+ .row #skills {
+     height: 800px;  
   }
-
+ .row .skillsContainer{
+  padding-top: 30px;
+}
 
 /*===========portfolio============*/                     
-  .portfolioContainer{
-      height: 1010px;
-      background-color: #cccccc;
+  .row #portfolio{
+      height: 1050px;
     }
 /*=============== About==================== */ 
- .about_container{
-  height: 200px;
+ .row #about{
+  height: 1000px;
  }
-
+ .abount_text_p{
+   padding-top: 25px;
+ }
 /*=============== Sosial==================== */ 
   
 }
@@ -110,7 +117,9 @@ margin-top: 0px;
   height: 700px;
   background-color: #aaaaaa;
 }
-
+.social_container{
+  padding-top: 35px;
+}
 #githubIcon{
   margin: 10px;
 }
