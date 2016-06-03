@@ -7,10 +7,6 @@
   color: #e52f2f; 
 }
 
-.current_page_item {
-  background-color: #C00;
-  color: green;
-}
 
 /*===============Jumbotron===========*/
 
@@ -26,6 +22,10 @@
   top: 280px;
   text-align: center;
   color: white;
+}
+.main h2{
+  font-size: 50px;
+
 }
 
 

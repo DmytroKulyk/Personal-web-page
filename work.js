@@ -33,6 +33,9 @@ $(".main h1").textillate({
     in: {effect: "fadeIn", delay: 70},
 });
 
+$(".main h2").textillate({
+    in: {effect: "bounceInDown", delay: 50},
+});
 //==============NavBarButton=======
  // $('button').click(function(){ 
  // $('.navHeaderCollapse').toggle('slow');
