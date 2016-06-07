@@ -8,10 +8,10 @@ $(id).hover(function() {
      }); 
 }
 
-imgHover('#githubIcon', 'images/icons/svg/Github.svg', 'images/icons/svg/Github-black.svg' );
-imgHover("#facebookIcon", "images/icons/svg/Facebook.svg", "images/icons/svg/Facebook-black.svg");
-imgHover("#linkedinIcon", 'images/icons/svg/Linkedin.svg', "images/icons/svg/Linkedin-black.svg" );
-imgHover("#letterIcon", 'images/png/message.psd', "images/png/closed-envelope-circle.psd" );
+imgHover('#githubIcon', 'images/png/Github2.png', 'images/png/Github.png' );
+imgHover("#facebookIcon", "images/png/Facebook2.png", "images/png/Facebook.png");
+imgHover("#linkedinIcon", 'images/png/Linkedin.png', "images/png/Linkedin2.png" );
+imgHover("#letterIcon", 'images/png/email1.png', "images/png/email.png" );
 
 
 //============Scrolling==============
