@@ -11,7 +11,7 @@
 /*===============Jumbotron===========*/
 
 .jumbotron {
-  background-image: url(Images/city.jpg); 
+  background-image: url(images/city.jpg); 
   height: 800px;
   background-size: 100% 100%;
   background-repeat: no-repeat; 
