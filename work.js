@@ -11,7 +11,8 @@ $(id).hover(function() {
 imgHover('#githubIcon', 'images/icons/svg/Github.svg', 'images/icons/svg/Github-black.svg' );
 imgHover("#facebookIcon", "images/icons/svg/Facebook.svg", "images/icons/svg/Facebook-black.svg");
 imgHover("#linkedinIcon", 'images/icons/svg/Linkedin.svg', "images/icons/svg/Linkedin-black.svg" );
-imgHover("#letterIcon", 'images/png/message.psd', "images/icons/png/closed-envelope-circle.psd" );
+imgHover("#letterIcon", 'images/png/message.psd', "images/png/closed-envelope-circle.psd" );
+
 
 //============Scrolling==============
 
