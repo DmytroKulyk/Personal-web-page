@@ -37,11 +37,29 @@ $(".main h1").textillate({
 $(".main h2").textillate({
     in: {effect: "bounceInDown", delay: 50},
 });
-//==============NavBarButton=======
- // $('button').click(function(){ 
- // $('.navHeaderCollapse').toggle('slow');
-   
- //   });
+
+
+//============ScrollingTextAnimation=========== 
+  $(window).scroll(function(event) {
+      var y = $(this).scrollTop();
+
+      if(y >= 400){
+        $('.skillsContainer').addClass('slideDown');
+      }
+      if(y >= 900){
+        $('.twiter_project').addClass('slideSideLeft');
+        $('.youtube_project').addClass('slideSideRighr'); 
+        $('.portfolioContainer h2').addClass('slideDown');                                   
+      }
+      if(y >= 1600){
+        $('.about_img').addClass('slideDown');
+        $(".abount_text_p").addClass('slideUp');
+        $(".about_container h2").addClass('slideSideLeft');
+      }
+
+  });
+
+
 
 });
 
