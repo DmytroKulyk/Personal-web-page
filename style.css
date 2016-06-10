@@ -46,15 +46,16 @@
  .row .skillsContainer{
   padding-top: 30px;
 }
+/*.twiter_project img{
+    height: 250px;
+    width: 300px;
+}*/
 
 /*===========portfolio============*/                     
   .row #portfolio{
       height: 1050px;
     }
-   /*.twiter_project img{
-     width: 500px;
-     height:600px;
-   }*/
+  
 /*=============== About==================== */ 
  .row #about{
   height: 1000px;
