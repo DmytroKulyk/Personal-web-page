@@ -2,6 +2,7 @@
       position: relative; 
   }
 
+
 .navbar-inverse .navbar-brand{
   font-size: 30px;
   color: #e52f2f; 
@@ -15,7 +16,7 @@
   height: 800px;
   background-size: 100% 100%;
   background-repeat: no-repeat; 
-  margin-bottom: 0px;
+  margin: 0;
 }
 .main {
   position: relative;
@@ -25,7 +26,6 @@
 }
 .main h2{
   font-size: 50px;
-
 }
 
 

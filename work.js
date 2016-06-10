@@ -45,8 +45,9 @@ $(".main h2").textillate({
 
       if(y >= 400){
         $('.skillsContainer').addClass('slideDown');
+        
       }
-      if(y >= 900){
+      if(y >= 1000){
         $('.twiter_project').addClass('slideSideLeft');
         $('.youtube_project').addClass('slideSideRighr'); 
         $('.portfolioContainer h2').addClass('slideDown');                                   
