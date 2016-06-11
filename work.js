@@ -45,7 +45,7 @@ $(".main h2").textillate({
 
       if(y >= 400){
         $('.skillsContainer').addClass('slideDown');
-        
+
       }
       if(y >= 1000){
         $('.twiter_project').addClass('slideSideLeft');
@@ -60,7 +60,14 @@ $(".main h2").textillate({
 
   });
 
+ $("#downArrow").hover(function() {
+   $(this).fadeOut(100);
+   $(this).fadeIn(500);
+ });
 
+// $( "#downArrow" ).mouseenter(function() {
+//     $(this).effect('bounce', 'slow');
+// });
 
 });
 

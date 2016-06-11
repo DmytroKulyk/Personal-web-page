@@ -17,16 +17,25 @@
   background-size: 100% 100%;
   background-repeat: no-repeat; 
   margin: 0;
+  position: relative;
 }
 .main {
   position: relative;
   top: 280px;
   text-align: center;
   color: white;
+  margin-bottom: 50px;
+  
 }
 .main h2{
+  position: relative;
   font-size: 50px;
+  
 }
+
+/*#downArrow{
+  position: absolute;
+}*/
 
 
 @media (max-width: 768px){
