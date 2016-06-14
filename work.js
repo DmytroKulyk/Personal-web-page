@@ -1,5 +1,25 @@
 $(document).ready(function(){
 
+//==================Greeting code=========
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
+
+if(hourNow > 18){
+  greeting = "Good evening, my name is Dmytro!";
+}else if(hourNow > 12){
+  greeting = "Good afternoon, my name is Dmytro!";
+}else if(hourNow > 0){
+  greeting = "Good morning, my name is Dmytro!";
+}else{
+  greeting = "Hello, my name is Dmytro!"
+}
+
+ $(".greeting").append(greeting);
+
+
+
+
 function imgHover(id, link1, link2){
 $(id).hover(function() {
     $(this).attr('src', link1);
