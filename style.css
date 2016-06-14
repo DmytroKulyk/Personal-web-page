@@ -44,6 +44,7 @@
 /*===========Jumbotron=============*/
    .jumbotron{
     height: 600px;
+    background-attachment: scroll;
    }
    .main{
     top: 180px;
