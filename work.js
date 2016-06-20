@@ -7,7 +7,7 @@ var greeting;
 
 if(hourNow > 18){
   greeting = "Good evening, my name is Dmytro!";
-}else if(hourNow > 12){
+}else if(hourNow > 11){
   greeting = "Good afternoon, my name is Dmytro!";
 }else if(hourNow > 0){
   greeting = "Good morning, my name is Dmytro!";
@@ -19,7 +19,7 @@ if(hourNow > 18){
 
 
 
-
+//================Social media icons=============
 function imgHover(id, link1, link2){
 $(id).hover(function() {
     $(this).attr('src', link1);

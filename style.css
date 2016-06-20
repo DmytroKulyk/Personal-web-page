@@ -39,45 +39,6 @@
 }*/
 
 
-@media (max-width: 768px){
-    
-/*===========Jumbotron=============*/
-   .jumbotron{
-    height: 600px;
-    background-attachment: scroll;
-   }
-   .main{
-    top: 180px;
-   }
-
-/*=============skills============*/                    
- .row #skills {
-     height: 800px;  
-  }
- .row .skillsContainer{
-  padding-top: 30px;
-}
-/*.twiter_project img{
-    height: 250px;
-    width: 300px;
-}*/
-
-/*===========portfolio============*/                     
-  .row #portfolio{
-      height: 1050px;
-    }
-  
-/*=============== About==================== */ 
- .row #about{
-  height: 1000px;
- }
- .abount_text_p{
-   padding-top: 25px;
- }
-/*=============== Sosial==================== */ 
-  
-}
- /*=================================================  */
 /*======================#SCILLS======================*/
 
 #skills { 
@@ -98,7 +59,7 @@
  
 /*===============PORTFOLIO==============*/
     #portfolio{
-      height: 650px;
+      height: 1100px;
       background-color: #cccccc;
     }
   .portfolioContainer{
@@ -108,7 +69,9 @@
   .portfolioContainer h2{
     padding-bottom: 40px;
   }
-
+.twoprojects{
+  margin-top: 30px;
+}
 
 /*=================About==================*/
 
@@ -168,6 +131,41 @@ margin-top: 0px;
 #footer p{
   color: white;
   padding-top: 20px;
+}
+
+@media (max-width: 768px){
+    
+/*===========Jumbotron=============*/
+   .jumbotron{
+    height: 600px;
+    background-attachment: scroll;
+   }
+   .main{
+    top: 180px;
+   }
+
+/*=============skills============*/                    
+ .row #skills {
+     height: 800px;  
+  }
+ .row .skillsContainer{
+  padding-top: 30px;
+}
+
+/*===========portfolio============*/                     
+ #portfolio{
+      height: 1900px;
+    }
+  
+/*=============== About==================== */ 
+ .row #about{
+  height: 1000px;
+ }
+ .abount_text_p{
+   padding-top: 25px;
+ }
+/*=============== Sosial==================== */ 
+  
 }
 /*================Animation============*/
  .slideDown{
