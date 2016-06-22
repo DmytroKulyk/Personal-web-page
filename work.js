@@ -72,7 +72,7 @@ $(".main h2").textillate({
         $('.youtube_project').addClass('slideSideRighr'); 
         $('.portfolioContainer h2').addClass('slideDown');                                   
       }
-      if(y >= 1600){
+      if(y >= 2100){
         $('.about_img').addClass('slideDown');
         $(".abount_text_p").addClass('slideUp');
         $(".about_container h2").addClass('slideSideLeft');
