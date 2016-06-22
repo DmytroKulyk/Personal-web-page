@@ -1,0 +1,28 @@
+/*img{
+	border: solid 3px black;
+	padding: 15px
+}*/
+
+p{
+	padding-top: 20px;
+	font-size: 23px;
+}
+
+.buttons button{
+	height: 80px;
+	width: 280px;
+	font-size: 20px;
+	color: white;
+	border-radius: 8px;
+	background-color: #6e7b8b;
+}
+
+.buttons button:hover{
+    color:#3247e1;
+    background-color: #8c8c8c;
+}
+
+
+button{
+	margin: 20px;
+}
