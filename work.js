@@ -68,7 +68,7 @@ $(".main h2").textillate({
 
       }
       if(y >= 1000){
-        $('.twiter_project').addClass('slideSideLeft');
+        $('.view').addClass('slideSideLeft');
         $('.youtube_project').addClass('slideSideRighr'); 
         $('.portfolioContainer h2').addClass('slideDown');                                   
       }
