@@ -59,7 +59,7 @@
 }
 .view-first .mask{
   opacity: 0;
-  background-color: rgba(238,62,18, 0.7);
+  background-color: rgba(115,146,184, 0.7);
   transition: all 0.4s ease-in-out;
 }
 .view-first h2{
