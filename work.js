@@ -85,9 +85,42 @@ $(".main h2").textillate({
    $(this).fadeIn(500);
  });
 
-// $( "#downArrow" ).mouseenter(function() {
-//     $(this).effect('bounce', 'slow');
-// });
+//  // Get the modal
+// var modal = $('#myModal');
+
+// // Get the button that opens the modal
+// var btn = $("#myButton");
+
+// // Get the <span> element that closes the modal
+// var span = $(".close")[0];
+
+// When the user clicks on the button, open the modal 
+$("#myButton").click(function() {
+    $('#myModal').css("display", "block");
+});
+
+$("#myButton1").click(function() {
+    $('#myModal1').css("display", "block");
+});
+
+$("#myButton2").click(function() {
+    $('#myModal2').css("display", "block");
+});
+
+$("#myButton3").click(function() {
+    $('#myModal3').css("display", "block");
+});
+// When the user clicks on <span> (x), close the modal
+$(".close").click(function() {
+    $('#myModal, #myModal1, #myModal2, #myModal3 ').css('display', "none");
+})
+
+// When the user clicks anywhere outside of the modal, close it
+$(window).click(function(event) {
+    if (event.target.id == 'myModal' || event.target.id == 'myModal1') {
+        $('#myModal, #myModal1, #myModal2, #myModal3').css('display', "none");
+    }
+});
 
 });
 
