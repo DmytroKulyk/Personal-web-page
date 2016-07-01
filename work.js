@@ -117,7 +117,7 @@ $(".close").click(function() {
 
 // When the user clicks anywhere outside of the modal, close it
 $(window).click(function(event) {
-    if (event.target.id == 'myModal' || event.target.id == 'myModal1') {
+    if (event.target.id == 'myModal' || event.target.id == 'myModal1' || event.target.id == 'myModal2' || event.target.id == 'myModal3') {
         $('#myModal, #myModal1, #myModal2, #myModal3').css('display', "none");
     }
 });

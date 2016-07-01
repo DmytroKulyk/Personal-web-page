@@ -19,7 +19,9 @@
     overflow: hidden;
     top: 0;
     left: 0;
+    
 }
+
 .view h2 {
     text-transform: uppercase;
     color: #fff;
@@ -38,7 +40,8 @@
 	color: #fff;
 	padding: 10px 20px 20px; 
 }
-.view .info{
+
+.mask button{
 	display: inline-block;
 	text-decoration: none;
 	padding: 7px 14px;
@@ -46,9 +49,9 @@
 	color: #fff;
 	text-transform: uppercase;
 	box-shadow: 0 0 1px #000;
+	border: none;
 }
-
-.view a.info:hover{
+.mask button:hover{
 	box-shadow: 0 0 5px #000;
 }
 
@@ -72,7 +75,7 @@
 	opacity: 0;
 	transition: all 0.2s linear;
 }
-.view-first a.info{
+ .mask button{
 	opacity: 0;
 	transition: all 0.2s ease-in-out;
 }
@@ -81,22 +84,23 @@
 .view-first:hover img { 
 	transform: scale(1.1);
 } 
+
 .view-first:hover .mask { 
 	opacity: 1;
 }
+
 .view-first:hover h2,
 .view-first:hover p,
-.view-first:hover a.info {
+.view-first:hover button {
     opacity: 1;
     transform: translateY(0px);
 }
 .view-first:hover p {
     transition-delay: 0.1s;
 }
-.view-first:hover a.info {
-    transition-delay: 0.2s;
+.view-first:hover button{
+	transition-delay: 0.2s;
 }
-
 
 
 
