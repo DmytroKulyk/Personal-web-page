@@ -70,6 +70,7 @@
 	background-color: #B8B8B8;
 }
 .footer button{
+	margin: 5px;
 	background-color: #9bd28f;
     border: none;
     border-radius: 10px;

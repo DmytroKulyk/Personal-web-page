@@ -133,6 +133,12 @@ margin-top: 0px;
   color: white;
   padding-top: 20px;
 }
+@media (max-width: 1030px){
+ 
+ #portfolio{
+      height: 1900px;
+    }
+}
 
 @media (max-width: 768px){
     
@@ -154,9 +160,9 @@ margin-top: 0px;
 }
 
 /*===========portfolio============*/                     
- #portfolio{
+ /*#portfolio{
       height: 1900px;
-    }
+    }*/
   
 /*=============== About==================== */ 
  .row #about{
